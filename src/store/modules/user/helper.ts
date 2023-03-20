@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://raw.githubusercontent.com/Chanzhaoyu/chatgpt-web/main/src/assets/avatar.jpg',
       name: '了解更多',
-      description: '<a href="https://discuz.ssan.fun" class="text-blue-500" target="_blank" >circle</a>',
+      description: '<a href="https://forum.ssan.fun" class="text-blue-500" target="_blank" >circle</a>',
     },
   }
 }
@@ -28,5 +28,5 @@ export function getLocalState(): UserState {
 }
 
 export function setLocalState(setting: UserState): void {
-  ss.set(LOCAL_NAME, setting)
+  // ss.set(LOCAL_NAME, setting)
 }
